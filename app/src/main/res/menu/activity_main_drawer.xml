@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_name4"
+            android:title="Grocery and Transportation" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_action_name5"
+            android:title="Rocks and Minerals" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_action_name8"
+            android:title="Life Sciences" />
+
+        <item
+            android:id="@+id/nav_rocket"
+            android:icon="@drawable/ic_action_name3"
+            android:title="Rocket" />
+
+
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_action_name6"
+            android:title="Health" />
+
+        <item
+            android:id="@+id/nav_science"
+            android:icon="@drawable/ic_action_name2"
+            android:title="Construction" />
+
+        <item
+            android:id="@+id/nav_math"
+            android:icon="@drawable/math"
+            android:iconTint="@color/blue"
+
+            android:title="Math" />
+
+        <item
+            android:id="@+id/nav_physist"
+            android:icon="@drawable/ic_action_name8"
+            android:iconTint="@color/blue"
+
+            android:title="Physics/Chemsitry" />
+
+    </group>
+</menu>
